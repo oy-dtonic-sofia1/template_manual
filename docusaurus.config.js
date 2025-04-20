@@ -95,10 +95,8 @@ const config = {
 					// 	label: "GitHub",
 					// 	position: "right",
 					// },
-					{ to: "/docs/outline", label: "개요", position: "left" },
-					{ to: "/docs/layoutDesigner", label: "LD사용법", position: "left" },
-					{ to: "/docs/templateGuide", label: "작업방법", position: "left" },
-					{ to: "/docs/coworkGuide", label: "협업", position: "left" },
+					{ to: "/docs/Overview", label: "개요", position: "left" },
+					// { to: "/docs/deprecated/outline", label: "개요", position: "left" }
 				],
 			},
 			footer: {
@@ -109,42 +107,30 @@ const config = {
 						items: [
 							{
 								label: "Tutorial",
-								to: "/docs/deprecated/intro",
+								to: "/docs/Tutorial",
 							},
 						],
 					},
 					{
-						title: "Community",
+						title: "File",
 						items: [
+							
 							{
-								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
-							},
-							{
-								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
-							},
-							{
-								label: "X",
-								href: "https://x.com/docusaurus",
-							},
+								label: "Google Drive",
+								href: "https://drive.google.com/drive/folders/1KJI8hd_H5cDl8ve3O3zs89BLUTOqaU_X",
+							}
 						],
 					},
 					{
 						title: "More",
 						items: [
 							{
-								label: "Blog",
-								to: "/blog",
-							},
-							{
 								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
+								href: "https://github.com/sofia1768/oy_template",
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: prismThemes.github,
